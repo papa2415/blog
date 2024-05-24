@@ -303,7 +303,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 400px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -351,7 +351,7 @@ body {
   text-align: center;
   height: 40px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   margin-top: -20px;
 }
@@ -368,16 +368,16 @@ body {
   letter-spacing: 2px;
 }
 #subtitle {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 16px;
   letter-spacing: 1px;
+  color: black;
 }
 #subtitle-wrap {
   margin-top: 16px;
 }
 #main-nav {
   float: left;
-  margin-left: -15px;
 }
 .nav-icon,
 .main-nav-link {
@@ -408,6 +408,8 @@ body {
 .main-nav-link {
   font-weight: 300;
   letter-spacing: 1px;
+  background-color: black;
+  padding: 20px;
 }
 @media screen and (max-width: 479px) {
   .main-nav-link {
